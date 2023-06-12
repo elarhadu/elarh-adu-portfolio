@@ -33,7 +33,6 @@ footer {
   color: var(--textColor);
 }
 
-
 /* ============================ MEDIA QUERIES (SMALL DEVICES) ======================== */
 @media screen and (max-width: 767px) {
   .footer__copyright {
