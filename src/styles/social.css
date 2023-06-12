@@ -15,12 +15,13 @@
   background: var(--primaryColor);
 }
 
-@media screen and (max-width: 768px) {
-  home {
+@media screen and (max-width: 767px) {
+  .home {
     height: 100vh;
   }
 
-  .home_social, .scroll_down {
+  .home_social,
+  .scroll_down {
     display: none;
   }
 }

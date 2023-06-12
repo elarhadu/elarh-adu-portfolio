@@ -1,24 +1,9 @@
 footer {
   background: var(--mainColor);
-  padding: 3rem 0;
+  padding: 1.5rem 0;
   text-align: center;
   font-size: 0.9rem;
   margin-top: 7rem;
-}
-
-.footer__logo {
-font-size: 2rem;
-font-weight: 500;
-margin-bottom: 2rem;
-display: inline-block;
-}
-
-.permalinks {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin: 0 auto 3rem;
 }
 
 .footer__socials {
@@ -43,7 +28,6 @@ display: inline-block;
   border-color: var(--mainColorLight);
 }
 
-
 .footer__copyright {
   margin-bottom: 4rem;
   color: var(--textColor);
@@ -51,13 +35,8 @@ display: inline-block;
 
 
 /* ============================ MEDIA QUERIES (SMALL DEVICES) ======================== */
-@media screen and (max-width: 768px) {
-  .permalinks {
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
+@media screen and (max-width: 767px) {
   .footer__copyright {
-    margin-bottom: 2.6rem ;
+    margin-bottom: 2.6rem;
   }
 }

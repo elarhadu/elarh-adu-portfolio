@@ -43,8 +43,8 @@
 
 /* ========== MEDIA QUERIES ========= */
 
-@media screen and (max-width: 1024px) {
-  .skills__container { 
+@media screen and (max-width: 1023px) {
+  .skills__container {
     grid-template-columns: 1fr;
   }
 
@@ -59,7 +59,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .skills__container {
     gap: 1rem;
   }
@@ -69,5 +69,4 @@
     padding: 2rem 1rem;
     margin: 0 auto;
   }
-
 }

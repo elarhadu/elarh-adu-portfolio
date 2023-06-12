@@ -10,8 +10,12 @@
   outline: none;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 :root {
-  --mainColor: #29335C;
+  --mainColor: #29335c;
   --mainColorLight: #4466eb;
   --primaryColor: #2a8ca4;
   --primaryColorDeep: #04375a;
@@ -19,9 +23,7 @@
   --secondaryColor: #db2b39;
   --textColor: #eee;
   --color-light: rgba(255, 255, 255, 0.6);
-
   --transition: all 400ms ease;
-
   --container-width-lg: 75%;
   --container-width-md: 86%;
   --container-width-sm: 90%;
@@ -29,10 +31,6 @@
 
 html {
   scroll-behavior: smooth;
-}
-
-::-webkit-scrollbar {
-  display: none;
 }
 
 body {
@@ -48,7 +46,12 @@ body {
   margin: 0 auto;
 }
 
-h1, h2, h3, h4, h5, h6 { 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
 }
 
@@ -60,13 +63,14 @@ section {
   margin-top: 8rem;
 }
 
-section > h2, section > h5 {
+section > h2,
+section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 
 section > h2 {
-  color: var(--color-light); 
+  color: var(--color-light);
   margin-bottom: 3rem;
 }
 
@@ -121,14 +125,13 @@ img {
   }
 }
 
-
 /* ============================ MEDIA QUERIES (SMALL DEVICES) ======================== */
 @media screen and (max-width: 768px) {
   .container {
     width: var(--container-width-sm);
   }
 
-  section >h2 {
+  section > h2 {
     margin-bottom: 6rem;
   }
 }

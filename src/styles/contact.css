@@ -42,7 +42,8 @@ form {
   gap: 1.2rem;
 }
 
-input, textarea {
+input,
+textarea {
   width: 100%;
   padding: 1.5rem;
   border-radius: 0.5rem;
@@ -54,7 +55,7 @@ input, textarea {
 
 
 /* ============================ MEDIA QUERIES (MEDIUM DEVICES) ======================== */
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .container.contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
@@ -63,7 +64,7 @@ input, textarea {
 
 
 /* ============================ MEDIA QUERIES (SMALL DEVICES) ======================== */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .container.contact__container {
     width: var(--container-width-sm);
   }

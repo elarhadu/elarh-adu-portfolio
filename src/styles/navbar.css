@@ -1,10 +1,14 @@
 header {
   display: flex;
   align-items: center;
+  width: 100%;
   justify-content: space-between;
   height: 80px;
   padding: 0 2rem;
   background-color: var(--mainColor);
+  z-index: 100;
+  position: fixed;
+  top: 0;
 }
 
 nav a {
@@ -20,7 +24,7 @@ header .nav-btn {
   font-size: 1.8rem;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1023px) {
   header .nav-btn {
     visibility: visible;
     opacity: 1;
@@ -58,5 +62,5 @@ header .nav-btn {
 
   .no-scroll {
     overflow: hidden;
-  }  
+  }
 }

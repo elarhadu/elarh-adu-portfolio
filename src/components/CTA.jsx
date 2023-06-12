@@ -1,13 +1,11 @@
-import React from 'react'
-import My_Resume from '../assets/my_resume.pdf'
+import React from 'react';
+import myResume from '../assets/emmanuella_adu_resume.pdf';
 
-const CTA = () => {
-  return (
-    <div className='cta'>
-      <a href={My_Resume} download className='btn'>Download CV</a>
-      <a href="#contact" className='btn btn-primary'>Let's Talk</a>
-    </div>
-  )
-}
+const CTA = () => (
+  <div className="cta">
+    <a href={myResume} download className="btn">Download CV</a>
+    <a href="#contact" className="btn btn-primary">Let&apos;s Talk</a>
+  </div>
+);
 
-export default CTA
+export default CTA;
