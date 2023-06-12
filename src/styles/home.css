@@ -1,0 +1,62 @@
+.home {
+  height: 100vh;
+  padding-top: 7rem;
+  overflow: hidden;
+}
+
+.home__container {
+  text-align: center;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 35%;
+  gap: 15%;
+}
+
+.cta {
+  margin-top: 2.5rem;
+  display: flex;
+  gap: 1.2rem;
+  justify-content: center;
+}
+
+.my_profile {
+  width: 100%;
+  margin-top: 4rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.scroll_down {
+  position: absolute;
+  right: -2.3rem;
+  bottom: 5rem;
+  transform: rotate(90deg);
+  font-weight: 300;
+  font-size: 0.9rem;
+}
+
+@media screen and (max-width: 1023px) {
+  .home {
+    height: 68vh;
+  }
+
+  .home__container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    height: 100vh;
+  }
+
+  .home__container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .my_profile {
+    display: none;
+  }
+}
